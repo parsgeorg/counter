@@ -1,0 +1,3 @@
+export const SET_CURRENT_TIME = 'SET_CURRENT_TIME';
+export const SET_CURRENT_INTERVAL = 'SET_CURRENT_INTERVAL';
+export const SET_TIMER = 'SET_TIMER';
