@@ -23,10 +23,10 @@ class TimerComponent extends React.Component {
   };
 
   handleStop = () => {
-    const { changeTimer } = this.props;
-    clearInterval(this.props.timerId);
+    const { changeTimer, changeCurrentTime, timerId } = this.props;
+    clearInterval(timerId);
     changeTimer(null);
-    this.props.changeCurrentTime(0);
+    changeCurrentTime(0);
   };
 
   render() {
